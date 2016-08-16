@@ -1,0 +1,74 @@
+{
+  "dependencies": {
+    "core-js": {
+      "version": "2.3.0",
+      "resolved": "https://registry.npmjs.org/core-js/-/core-js-2.3.0.tgz",
+      "from": "core-js@>=2.3.0 <2.4.0"
+    },
+    "core-util-is": {
+      "version": "1.0.2",
+      "resolved": "https://registry.npmjs.org/core-util-is/-/core-util-is-1.0.2.tgz",
+      "from": "core-util-is@>=1.0.0 <1.1.0"
+    },
+    "es6-promise": {
+      "version": "3.0.2",
+      "resolved": "https://registry.npmjs.org/es6-promise/-/es6-promise-3.0.2.tgz",
+      "from": "es6-promise@>=3.0.2 <3.1.0"
+    },
+    "filereader": {
+      "version": "0.10.3",
+      "resolved": "https://registry.npmjs.org/filereader/-/filereader-0.10.3.tgz",
+      "from": "filereader@0.10.3"
+    },
+    "immediate": {
+      "version": "3.0.6",
+      "resolved": "https://registry.npmjs.org/immediate/-/immediate-3.0.6.tgz",
+      "from": "immediate@>=3.0.5 <3.1.0"
+    },
+    "inherits": {
+      "version": "2.0.1",
+      "resolved": "https://registry.npmjs.org/inherits/-/inherits-2.0.1.tgz",
+      "from": "inherits@>=2.0.1 <2.1.0"
+    },
+    "isarray": {
+      "version": "1.0.0",
+      "resolved": "https://registry.npmjs.org/isarray/-/isarray-1.0.0.tgz",
+      "from": "isarray@>=1.0.0 <1.1.0"
+    },
+    "jszip": {
+      "version": "3.1.1",
+      "resolved": "https://registry.npmjs.org/jszip/-/jszip-3.1.1.tgz",
+      "from": "jszip@3.1.1"
+    },
+    "lie": {
+      "version": "3.1.0",
+      "resolved": "https://registry.npmjs.org/lie/-/lie-3.1.0.tgz",
+      "from": "lie@>=3.1.0 <3.2.0"
+    },
+    "pako": {
+      "version": "1.0.3",
+      "resolved": "https://registry.npmjs.org/pako/-/pako-1.0.3.tgz",
+      "from": "pako@>=1.0.2 <1.1.0"
+    },
+    "process-nextick-args": {
+      "version": "1.0.7",
+      "resolved": "https://registry.npmjs.org/process-nextick-args/-/process-nextick-args-1.0.7.tgz",
+      "from": "process-nextick-args@>=1.0.6 <1.1.0"
+    },
+    "readable-stream": {
+      "version": "2.0.6",
+      "resolved": "https://registry.npmjs.org/readable-stream/-/readable-stream-2.0.6.tgz",
+      "from": "readable-stream@>=2.0.6 <2.1.0"
+    },
+    "string_decoder": {
+      "version": "0.10.31",
+      "resolved": "https://registry.npmjs.org/string_decoder/-/string_decoder-0.10.31.tgz",
+      "from": "string_decoder@>=0.10.0 <0.11.0"
+    },
+    "util-deprecate": {
+      "version": "1.0.2",
+      "resolved": "https://registry.npmjs.org/util-deprecate/-/util-deprecate-1.0.2.tgz",
+      "from": "util-deprecate@>=1.0.1 <1.1.0"
+    }
+  }
+}
