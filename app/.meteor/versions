@@ -78,6 +78,7 @@ sanjo:jasmine@1.0.1
 sanjo:long-running-child-process@1.0.3
 sanjo:meteor-files-helpers@1.1.0_7
 sanjo:meteor-version@1.0.0
+session@1.0.5
 spacebars@1.0.12
 spacebars-compiler@1.0.12
 standard-minifier-css@1.1.8

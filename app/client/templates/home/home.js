@@ -5,24 +5,17 @@ Template.Home.events({
 	"change #importer": function(event) {
 		event.preventDefault();
 
-		//JSZip = Meteor.npmRequire('jszip');
+		var JSZip = require("jszip");
 
-		var file = event.target.files[0];
-		
-		console.log(file.name);
-		console.log("File.name is a: " + (typeof file.name));
+		JSZip.loadAsync(event.target.files[0]).then(function(zippedFile) {
+			var entries = [];
 
-		
-		Meteor.call("import", file, function(error, results) {
-			if(error) {
-				console.log(error);
-			} else {
-				console.log(results);
-			}
+			zippedFile.forEach(function (relativePath, fileEntry) {
+            	entries.push(fileEntry);
+            });
+
+            console.log(entries);
 		});
-		
-
-		
 	}
 });
 
